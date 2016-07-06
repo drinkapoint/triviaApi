@@ -3,7 +3,7 @@ angular.module('triviaQuestionApp')
         this.postQuestion = function(question, answer){
             return $http({
                 method:"POST",
-                url:"http://drinkpointtriviapi.herokuapp.com/api/questions",
+                url:"/api/questions",
                 data:{
                     'question':question,
                     'answer':answer
