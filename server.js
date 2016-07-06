@@ -4,7 +4,7 @@
        cors = require('cors'),
        mongoose = require('mongoose'),
        port = process.env.PORT || 9285,
-       mongoUri = 'mongodb://drinkpoint1:drinkpoint1@dbh30.mlab.com:27307/heroku_m4k4q6ww',
+       mongoUri = 'mongodb://drinkpoint:drinkpoint12@dbh85.mlab.com:27857/heroku_gjm3rnls',
        router = express.Router(),
        appRoutes = require('./serverResources/routes/appRoutes.js');
 
